@@ -121,7 +121,7 @@ strong {
 	padding: 25px;
 }
 
-@media (max-width: 766px) {
+@media (max-width: 450px) {
 	#why-us .row img {
 		display: none;
 	}
@@ -1031,7 +1031,7 @@ figure.snip1192 .author h5 span {
 	top: 0;
 	left: 0;
 	background-color: rgb(0, 0, 0);
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(51,161,222, 0.9);
 	overflow-x: hidden;
 	transition: 0.5s;
 }
@@ -1048,14 +1048,14 @@ figure.snip1192 .author h5 span {
 	padding: 8px;
 	text-decoration: none;
 	font-size: 36px;
-	color: #818181;
+	color: #000;
 	display: block;
 	transition: 0.3s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-	color: #2980b9;
+	color: #fff;
 }
 
 .overlay .closebtn {
@@ -1151,5 +1151,4 @@ blockquote:after {
     content: "\201D";
     font-size: 70px;
     opacity: 0.5;
-	font-style: normal;
 }
